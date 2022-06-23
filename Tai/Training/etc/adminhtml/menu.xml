@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Tai_Training::studentmanage" title="student manage" module="Tai_Training" sortOrder="51" resource="Tai_Training::studentmanage"/>
+        <add id="Tai_Training::post" title="student manage " module="Tai_Training" sortOrder="10" action="student/post" resource="Tai_Training::post" parent="Tai_Training::studentmanage"/>
+        
+    </menu>
+</config>
